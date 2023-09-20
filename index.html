@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:dimgrey">
+<div id="all", style="opacity:1">
+<h1>Universal Progress Bar</h1>
+<link rel="stylesheet" href="styles.css">
+<div id="ores">
+<p1 id="coalText" style="opacity:0">Coal: <span id="coal">0</span> (<span id="coalChance"></span>% chance)</p1><br>
+<p1 id="goldText" style="opacity:0">Gold: <span id="gold">0</span> (<span id="goldChance"></span>% chance)</p1><br>
+<p1 id="crystalText" style="opacity:0">Crystals: <span id="crystals">0</span></p1><br>
+
+<div id="menu" style="opacity:0">
+<button id="homeButton" onclick="screenMenu(0)">Home</button>
+<button id="crystalShopButton" onclick="screenMenu(1)">Crystal Shop</button>
+<button id="aboutButton" onclick="screenMenu(2)">About</button>
+<button id="achievementsButton" onclick="screenMenu(3)">Achievements</button>
+<button id="statsButton" onclick="screenMenu(4)">Stats</button>
+</div>
+
+<div id="progressDiv">
+<p>You control <span id="progressNum">0</span>% of the universe.</p>
+<progress value="0" max="100" id="progressBar"></progress>
+</div>
+
+<br><br>
+<div id="center-button">
+<button class="pick" onclick = "mineOre()">Mine
+<button onclick="increaseCoalGain()" style="display:none;" id="coalButton">Increase Coal %<br>Cost: <span id="coalCost"></span> coal.</button>
+<button onclick="increaseGoldGain()" style="display:none;" id="goldButton">Increase Gold %<br>Cost: <span id="goldCost"></span> gold.</button>
+
+<button id ="crystallize" onclick="prestige()" style="display:none">Crystallize<br><span id="extraCrystals"></span></button>
+</div>
+
+<div id="crystalShop" style="display:none">
+    <button onclick="crystalUpgrade(0)" class="crystalUpgrade" id="crystalUpgradeA">2x Coal Gain<br>Cost: <span id="crystalUpgradeACost"></span> crystals</button>
+    <button onclick="crystalUpgrade(1)"class="crystalUpgrade" id="crystalUpgradeB">2x Gold Gain<br>Cost: <span id="crystalUpgradeBCost"></span> crystals</button>
+    <button onclick="crystalUpgrade(2)"class="crystalUpgrade" id="crystalUpgradeC">2x Mining Speed<br>Cost: <span id="crystalUpgradeCCost"></span> crystals</button>
+</div>
+
+<p id="aboutText" style="display:none">Universal Progress Bar is a game by Fusion. It is currently in development. Thank you for playing!</p>
+
+<b><p1 id="status" style="display:none"></p1></b>
+</div>
+
+<script src="scripts.js">
+</script>
+
+</body>
+</html> 
