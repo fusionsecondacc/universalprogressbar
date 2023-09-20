@@ -1,0 +1,180 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+.crystalUpgrade {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 5px;
+    border-color: fuchsia;
+    background-color: pink;
+    height: 75px;
+    vertical-align: top;
+    text-align: center;
+    width: 200px;
+}
+
+#crystalShop {
+    text-align: center;
+}
+
+.pick {
+    background-color:darkgray;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 30px;
+    border-width: 5px;
+    height: 50px;
+    width: 400px;
+    vertical-align: top;
+}
+
+#coalButton {
+    background-color:black;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+    height: 50px;
+    vertical-align: top;
+    width: 200px;
+}
+
+#goldButton {
+    background-color: gold;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 5px;
+    border-color: black;
+    color: black;
+    height: 50px;
+    vertical-align: top;
+    width: 200px;
+}
+
+#menu {
+    text-align: center;
+}
+
+#homeButton {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 5px;
+    border-color: black;
+    background-color: white;
+    height: 50px;
+    vertical-align: top;
+    text-align: center;
+    width: 150px;
+}
+
+#crystalShopButton {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 5px;
+    border-color: fuchsia;
+    background-color: pink;
+    height: 50px;
+    vertical-align: top;
+    text-align: center;
+    width: 150px;
+}
+
+#aboutButton {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 5px;
+    border-color: black;
+    background-color: lightgrey;
+    height: 50px;
+    vertical-align: top;
+    text-align: center;
+    width: 150px;
+}
+
+#achievementsButton {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 5px;
+    border-color: black;
+    background-color: gold;
+    height: 50px;
+    vertical-align: top;
+    text-align: center;
+    width: 150px;
+}
+
+#statsButton {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 5px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    height: 50px;
+    vertical-align: top;
+    text-align: center;
+    width: 150px;
+}
+
+#crystallize {
+    background-color:fuchsia;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 15px;
+    border-width: 5px;
+    border-color: pink;
+    font-color: black;
+    height: 50px;
+    vertical-align: top;
+    width: 200px;
+}
+
+#center-button {
+    text-align: center;
+}
+
+
+#ores {
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#status {
+    font-family: 'Courier New', monospace;
+    color: darkgreen;
+    font-size: 33px;
+}
+
+#progressBar {
+    text-align: center;
+    width: 100%;
+}
+
+#crystalText {
+    color: fuchsia;
+}
+
+#goldText {
+    color: gold;
+}
