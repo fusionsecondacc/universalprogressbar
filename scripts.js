@@ -135,7 +135,7 @@ var updateCookies = function()
     d.setTime(d.getTime() + (300*24*60*60*1000)); //300 is number of days until expiration
 
     userData += value+";"+coal+";"+gold+";"+crystals+";"
-    document.cookie = "username="+encodeURIComponent(userData) +"; path=/"
+    document.cookie = "username="+encodeURIComponent(userData) +"; domain=github.io; path=/"
     //+"; expires="+d.toUTCString()+ "; path=/";
 }
 
