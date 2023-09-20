@@ -63,16 +63,14 @@ var menu = document.getElementById("menu")
 var crystalShop = document.getElementById("crystalShop")
 
 
-var myInterval = setInterval(function() {
+var updateProgress = setInterval(function() {
     progressBar.value = value; 
 	progressNum.innerText = value;
-    value = Math.round((value + incr) * 1e12) / 1e12;}, 1000)
+    value = Math.round((value + incr) * 1e12) / 1e12;}, miningSpeed * 1000)
 
 var mineOre = function()
 {
     updateCookies()
-    coalChance.innerText = (100 - coalOdds) - (100-goldOdds)
-    goldChance.innerText = (100-goldOdds)
 	statusText.style = "display:block"
 	var randNum = Math.round(Math.random() * 100)
 	
