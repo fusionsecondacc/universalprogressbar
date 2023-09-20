@@ -1,5 +1,8 @@
 /* Place your CSS styles in this file */
 
+body {
+    background-color: dimgray;
+
 h1 {
     text-align: center;
     font-family: "Courier New", monospace;
