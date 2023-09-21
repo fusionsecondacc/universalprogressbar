@@ -71,7 +71,7 @@ var updateProgress = setInterval(function() {
 var mineOre = function()
 {
     updateCookies()
-	alert(decodeURIComponent(document.cookie))
+	//alert(decodeURIComponent(document.cookie))
 	statusText.style = "display:block"
 	var randNum = Math.round(Math.random() * 100)
 	
