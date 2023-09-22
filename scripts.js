@@ -4,7 +4,7 @@ var time = Date.now()
 var incr = 0.000001;
 
 
-var coal = 100;
+var coal = 0;
 var gold = 0;
 var crystals = 0;
 
